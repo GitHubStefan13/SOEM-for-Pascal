@@ -1,7 +1,7 @@
 # SOEM-for-Pascal
 Simple Open Ethernet Master for Pascal
 
-CURRENTLY UNDER DEVELOPMENT!
+Basic functions work, not ready for deployment yet!
 ===========================
 
 MODULE
