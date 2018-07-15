@@ -1,7 +1,7 @@
 # SOEM-for-Pascal
 Simple Open Ethernet Master for Pascal
 
-Basic functions work, not ready for deployment yet!
+Module tested and ready for usage, SOE and FOE will be implemented later.
 ===========================
 
 MODULE
