@@ -326,13 +326,7 @@ ASALocalRun/
 # MFractors (Xamarin productivity tool) working folder 
 .mfractor/
 
-# Files build by Lazarus
-*.dbg
-*.exe
-*.ico
-
-# Lazarus Library folder
-lib/
 
 # Build soem.DLL file cannot be included due to License
 soem.dll
+packages/lib
