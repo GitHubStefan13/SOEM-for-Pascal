@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <PathDelim Value="\"/>
+    <Name Value="EtherCAT_Master"/>
+    <Type Value="RunAndDesignTime"/>
+    <Author Value="Stefan Unruh"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <PathDelim Value="\"/>
+      <SearchPaths>
+        <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+    </CompilerOptions>
+    <Description Value="Wrapper Package for the Simple Open EtherCAT Master(SOEM)"/>
+    <Version Major="1"/>
+    <Files Count="3">
+      <Item1>
+        <Filename Value="ec_resources.pas"/>
+        <UnitName Value="EC_Resources"/>
+      </Item1>
+      <Item2>
+        <Filename Value="soem_interface.pas"/>
+        <UnitName Value="SOEM_Interface"/>
+      </Item2>
+      <Item3>
+        <Filename Value="ethercat_types.pas"/>
+        <UnitName Value="EtherCAT_types"/>
+      </Item3>
+    </Files>
+    <RequiredPkgs Count="1">
+      <Item1>
+        <PackageName Value="FCL"/>
+      </Item1>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>

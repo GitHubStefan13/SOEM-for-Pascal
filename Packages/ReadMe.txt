@@ -1,0 +1,1 @@
+The Package for the EtherCAT MASTER, can either be installed in Lazarus or included in the Project

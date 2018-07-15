@@ -3,14 +3,14 @@
   <ProjectSession>
     <PathDelim Value="\"/>
     <Version Value="10"/>
-    <BuildModes Active="Release"/>
-    <Units Count="5">
+    <BuildModes Active="Debug"/>
+    <Units Count="24">
       <Unit0>
         <Filename Value="soem.lpr"/>
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="19" Y="8"/>
-        <UsageCount Value="31"/>
+        <UsageCount Value="130"/>
       </Unit0>
       <Unit1>
         <Filename Value="form_soem.pas"/>
@@ -20,155 +20,296 @@
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="Form_SOEM"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="31"/>
-        <CursorPos X="55" Y="46"/>
-        <UsageCount Value="31"/>
+        <CursorPos X="28" Y="12"/>
+        <FoldState Value=" T3kC06}"/>
+        <UsageCount Value="130"/>
         <Loaded Value="True"/>
       </Unit1>
       <Unit2>
         <Filename Value="soem_interface.pas"/>
-        <IsPartOfProject Value="True"/>
         <UnitName Value="SOEM_Interface"/>
-        <EditorIndex Value="1"/>
-        <TopLine Value="203"/>
-        <CursorPos X="54" Y="211"/>
-        <UsageCount Value="31"/>
-        <Loaded Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="43"/>
+        <CursorPos X="3" Y="274"/>
+        <FoldState Value=" TCXF33 pkDkfDX2 T3qM0dp"/>
+        <UsageCount Value="102"/>
       </Unit2>
       <Unit3>
-        <Filename Value="C:\lazarus\fpc\3.0.4\source\rtl\inc\dynlibs.pas"/>
+        <Filename Value="ec_resources.pas"/>
+        <UnitName Value="EC_Resources"/>
         <EditorIndex Value="-1"/>
-        <TopLine Value="34"/>
-        <UsageCount Value="10"/>
+        <CursorPos X="62" Y="72"/>
+        <UsageCount Value="68"/>
       </Unit3>
       <Unit4>
+        <Filename Value="C:\lazarus\fpc\3.0.4\source\rtl\inc\dynlibs.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="40"/>
+        <CursorPos X="10" Y="58"/>
+        <UsageCount Value="9"/>
+      </Unit4>
+      <Unit5>
         <Filename Value="C:\lazarus\fpc\3.0.4\source\rtl\inc\systemh.inc"/>
         <EditorIndex Value="-1"/>
-        <TopLine Value="95"/>
-        <CursorPos X="3" Y="109"/>
+        <TopLine Value="390"/>
+        <CursorPos X="3" Y="406"/>
+        <UsageCount Value="9"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="F:\EtherCAT\test.lfm"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="28"/>
+        <CursorPos X="60" Y="51"/>
+        <UsageCount Value="2"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="C:\lazarus\fpc\3.0.4\source\rtl\objpas\classes\classesh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1650"/>
+        <CursorPos X="17" Y="1667"/>
+        <UsageCount Value="9"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="C:\lazarus\fpc\3.0.4\source\rtl\objpas\math.pp"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="348"/>
+        <CursorPos X="10" Y="366"/>
+        <UsageCount Value="7"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="X:\Softwareentwicklung\Lazuras\Externe Komponenten\ParoControlComps\BigLED.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="146"/>
+        <CursorPos X="3" Y="31"/>
+        <UsageCount Value="7"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="Packages\soem_interface.pas"/>
+        <UnitName Value="SOEM_Interface"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="399"/>
+        <CursorPos X="19" Y="432"/>
+        <FoldState Value=" TLi263F piXjY64A]9ajS6A8 T7qH8A T3qX0401231+"/>
+        <UsageCount Value="24"/>
+        <Loaded Value="True"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="C:\lazarus\fpc\3.0.4\source\rtl\win\tthread.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="55"/>
+        <CursorPos X="18" Y="92"/>
+        <UsageCount Value="9"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="C:\lazarus\fpc\3.0.4\source\rtl\objpas\classes\classes.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="241"/>
+        <CursorPos X="9" Y="247"/>
+        <UsageCount Value="9"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="C:\lazarus\fpc\3.0.4\source\rtl\win\wininc\func.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="128"/>
+        <CursorPos X="22" Y="146"/>
+        <UsageCount Value="9"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="C:\lazarus\lcl\interfaces\win32\win32memostrings.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="32"/>
+        <CursorPos X="59" Y="52"/>
+        <UsageCount Value="9"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="C:\lazarus\lcl\interfaces\win32\win32object.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="396"/>
+        <CursorPos Y="413"/>
+        <UsageCount Value="9"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="C:\lazarus\components\lazutils\textstrings.pas"/>
+        <UnitName Value="TextStrings"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="834"/>
+        <CursorPos Y="842"/>
+        <UsageCount Value="9"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="C:\lazarus\components\epiktimer-master\etpackage.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="9"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="C:\lazarus\components\epiktimer-master\epiktimer.pas"/>
+        <UnitName Value="EpikTimer"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="497"/>
+        <CursorPos Y="515"/>
         <UsageCount Value="10"/>
-      </Unit4>
+      </Unit18>
+      <Unit19>
+        <Filename Value="C:\lazarus\lcl\include\control.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2850"/>
+        <CursorPos Y="2866"/>
+        <UsageCount Value="10"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="form_soem.lfm"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="61"/>
+        <CursorPos X="48" Y="79"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="Packages\ethercat_types.pas"/>
+        <UnitName Value="EtherCAT_types"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="2"/>
+        <CursorPos X="42" Y="11"/>
+        <FoldState Value=" TCOF33 pkDlADX20"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="C:\lazarus\fpc\3.0.4\source\rtl\win32\classes.pp"/>
+        <UnitName Value="Classes"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="16"/>
+        <UsageCount Value="10"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="Packages\ethercat_master.pas"/>
+        <UnitName Value="EtherCAT_Master"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+      </Unit23>
     </Units>
     <JumpHistory Count="30" HistoryIndex="29">
       <Position1>
-        <Filename Value="soem_interface.pas"/>
-        <Caret Line="201" Column="87" TopLine="64"/>
+        <Filename Value="Packages\soem_interface.pas"/>
+        <Caret Line="822" Column="27" TopLine="808"/>
       </Position1>
       <Position2>
-        <Filename Value="soem_interface.pas"/>
-        <Caret Line="222" Column="27" TopLine="201"/>
+        <Filename Value="Packages\soem_interface.pas"/>
+        <Caret Line="826" TopLine="808"/>
       </Position2>
       <Position3>
-        <Filename Value="soem_interface.pas"/>
-        <Caret Line="223" Column="33" TopLine="203"/>
+        <Filename Value="Packages\soem_interface.pas"/>
+        <Caret Line="818" Column="78" TopLine="801"/>
       </Position3>
       <Position4>
-        <Filename Value="form_soem.pas"/>
-        <Caret Line="47" Column="34" TopLine="27"/>
+        <Filename Value="Packages\soem_interface.pas"/>
+        <Caret Line="798" Column="11" TopLine="684"/>
       </Position4>
       <Position5>
-        <Filename Value="soem_interface.pas"/>
-        <Caret Line="196" Column="59" TopLine="47"/>
+        <Filename Value="Packages\soem_interface.pas"/>
+        <Caret Line="813" Column="36" TopLine="797"/>
       </Position5>
       <Position6>
-        <Filename Value="soem_interface.pas"/>
-        <Caret Line="193" Column="64" TopLine="52"/>
+        <Filename Value="Packages\soem_interface.pas"/>
+        <Caret Line="816" Column="55" TopLine="799"/>
       </Position6>
       <Position7>
-        <Filename Value="soem_interface.pas"/>
-        <Caret Line="222" Column="57" TopLine="200"/>
+        <Filename Value="Packages\soem_interface.pas"/>
+        <Caret Line="817" Column="60" TopLine="800"/>
       </Position7>
       <Position8>
-        <Filename Value="soem_interface.pas"/>
-        <Caret Line="221" Column="31" TopLine="199"/>
+        <Filename Value="Packages\soem_interface.pas"/>
+        <Caret Line="818" Column="61" TopLine="801"/>
       </Position8>
       <Position9>
-        <Filename Value="soem_interface.pas"/>
-        <Caret Line="222" Column="26" TopLine="200"/>
+        <Filename Value="Packages\soem_interface.pas"/>
+        <Caret Line="866" Column="31" TopLine="848"/>
       </Position9>
       <Position10>
-        <Filename Value="soem_interface.pas"/>
-        <Caret Line="221" Column="21" TopLine="202"/>
+        <Filename Value="Packages\soem_interface.pas"/>
+        <Caret Line="865" Column="40" TopLine="848"/>
       </Position10>
       <Position11>
-        <Filename Value="soem_interface.pas"/>
-        <Caret Line="193" Column="27" TopLine="42"/>
+        <Filename Value="Packages\soem_interface.pas"/>
+        <Caret Line="867" Column="142" TopLine="799"/>
       </Position11>
       <Position12>
-        <Filename Value="soem_interface.pas"/>
-        <Caret Line="223" Column="61" TopLine="204"/>
+        <Filename Value="Packages\soem_interface.pas"/>
+        <Caret Line="813" Column="38" TopLine="799"/>
       </Position12>
       <Position13>
-        <Filename Value="soem_interface.pas"/>
-        <Caret Line="227" Column="45" TopLine="204"/>
+        <Filename Value="Packages\soem_interface.pas"/>
+        <Caret Line="823" TopLine="799"/>
       </Position13>
       <Position14>
-        <Filename Value="soem_interface.pas"/>
-        <Caret Line="195" Column="14" TopLine="55"/>
+        <Filename Value="form_soem.pas"/>
+        <Caret Line="80" Column="16" TopLine="59"/>
       </Position14>
       <Position15>
         <Filename Value="form_soem.pas"/>
-        <Caret Line="40" Column="21" TopLine="29"/>
+        <Caret Line="97" Column="47" TopLine="81"/>
       </Position15>
       <Position16>
-        <Filename Value="form_soem.pas"/>
-        <Caret Line="47" Column="33" TopLine="29"/>
+        <Filename Value="Packages\soem_interface.pas"/>
+        <Caret Line="865" Column="42" TopLine="800"/>
       </Position16>
       <Position17>
-        <Filename Value="form_soem.pas"/>
-        <Caret Line="48" Column="47" TopLine="28"/>
+        <Filename Value="Packages\soem_interface.pas"/>
+        <Caret Line="30" Column="46" TopLine="28"/>
       </Position17>
       <Position18>
-        <Filename Value="form_soem.pas"/>
-        <Caret Line="42" Column="35" TopLine="28"/>
+        <Filename Value="Packages\soem_interface.pas"/>
+        <Caret Line="639" Column="27" TopLine="628"/>
       </Position18>
       <Position19>
-        <Filename Value="form_soem.pas"/>
-        <Caret Line="47" Column="34" TopLine="28"/>
+        <Filename Value="Packages\soem_interface.pas"/>
+        <Caret Line="895" Column="7" TopLine="884"/>
       </Position19>
       <Position20>
-        <Filename Value="soem_interface.pas"/>
-        <Caret Line="223" Column="28" TopLine="200"/>
+        <Filename Value="form_soem.pas"/>
+        <Caret Line="9" Column="17"/>
       </Position20>
       <Position21>
         <Filename Value="form_soem.pas"/>
-        <Caret Line="49" Column="46" TopLine="28"/>
+        <Caret Line="59" Column="38" TopLine="50"/>
       </Position21>
       <Position22>
         <Filename Value="form_soem.pas"/>
-        <Caret Line="51" TopLine="29"/>
+        <Caret Line="80" Column="57" TopLine="68"/>
       </Position22>
       <Position23>
         <Filename Value="form_soem.pas"/>
-        <Caret Line="53" Column="27" TopLine="33"/>
+        <Caret Line="139" Column="10" TopLine="114"/>
       </Position23>
       <Position24>
-        <Filename Value="form_soem.pas"/>
-        <Caret Line="51" TopLine="33"/>
+        <Filename Value="Packages\soem_interface.pas"/>
+        <Caret Line="18" Column="57"/>
       </Position24>
       <Position25>
-        <Filename Value="form_soem.pas"/>
-        <Caret Line="52" TopLine="33"/>
+        <Filename Value="Packages\ethercat_types.pas"/>
+        <Caret Line="5" Column="29"/>
       </Position25>
       <Position26>
-        <Filename Value="form_soem.pas"/>
-        <Caret Line="53" TopLine="33"/>
+        <Filename Value="Packages\soem_interface.pas"/>
+        <Caret Line="20" Column="56" TopLine="10"/>
       </Position26>
       <Position27>
-        <Filename Value="soem_interface.pas"/>
-        <Caret Line="199" Column="30" TopLine="188"/>
+        <Filename Value="Packages\ethercat_types.pas"/>
+        <Caret Line="11" Column="42" TopLine="2"/>
       </Position27>
       <Position28>
-        <Filename Value="form_soem.pas"/>
-        <Caret Line="43" Column="55" TopLine="29"/>
+        <Filename Value="Packages\soem_interface.pas"/>
+        <Caret Line="14" Column="50"/>
       </Position28>
       <Position29>
         <Filename Value="form_soem.pas"/>
-        <Caret Line="44" Column="55" TopLine="30"/>
+        <Caret Line="74" Column="32" TopLine="66"/>
       </Position29>
       <Position30>
-        <Filename Value="soem_interface.pas"/>
-        <Caret Line="209" Column="75" TopLine="196"/>
+        <Filename Value="form_soem.pas"/>
+        <Caret Line="103" Column="22" TopLine="97"/>
       </Position30>
     </JumpHistory>
   </ProjectSession>

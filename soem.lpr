@@ -9,8 +9,7 @@ uses
   Interfaces, // this includes the LCL widgetset
   Forms,
   { you can add units after this }
-  form_soem,
-  SOEM_Interface;
+  form_soem;
 
 {$R *.res}
 
